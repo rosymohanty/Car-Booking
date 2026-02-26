@@ -3,11 +3,11 @@ A modern and responsive Car Booking Website UI built using React, Vite, and Tail
 This project demonstrates clean UI design, reusable components, and scalable frontend architecture for a vehicle rental or car booking platform.
 
 📌 Tech Stack
-⚛️ React – Component-based UI development
-⚡ Vite – Fast development server and optimized build tool
-🎨 Tailwind CSS – Utility-first CSS framework
-📦 PostCSS – CSS processing
-🧩 Reusable Components – Modular and scalable structure
+- ⚛️ React – Component-based UI development
+- ⚡ Vite – Fast development server and optimized build tool
+- 🎨 Tailwind CSS – Utility-first CSS framework
+- 📦 PostCSS – CSS processing
+- 🧩 Reusable Components – Modular and scalable structure
 
 ✨ Features
 - Responsive car booking landing page
@@ -34,15 +34,15 @@ car-booking/
 │── package.json
 
 🚀 Getting Started
-1️⃣ Clone the repository
+-1️⃣ Clone the repository
 git clone https://github.com/your-username/car-booking.git
-2️⃣ Navigate to the project folder
+-2️⃣ Navigate to the project folder
 cd car-booking
-3️⃣ Install dependencies
+-3️⃣ Install dependencies
 npm install
-4️⃣ Run the development server
+-4️⃣ Run the development server
 npm run dev
-The application will run at:
+-The application will run at:
 http://localhost:5173/
 
 🖥️ UI Sections
@@ -51,7 +51,7 @@ http://localhost:5173/
 - Car Listings
 - Booking Section
 - Footer
-- 
+  
 🎯 Purpose of the Project
 This project was developed to:
 - Practice modern frontend development
