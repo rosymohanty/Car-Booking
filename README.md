@@ -1,68 +1,53 @@
-🚗 Car Booking Website
-A modern and responsive Car Booking Website UI built using React, Vite, and Tailwind CSS.
+# 🚗 Car Booking Website
+
+![React](https://img.shields.io/badge/React-18-blue?logo=react)
+![Vite](https://img.shields.io/badge/Vite-Fast%20Build-purple?logo=vite)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-Utility--First-38B2AC?logo=tailwind-css)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+A modern and responsive **Car Booking Website UI** built using **React, Vite, and Tailwind CSS**.  
 This project demonstrates clean UI design, reusable components, and scalable frontend architecture for a vehicle rental or car booking platform.
 
-📌 Tech Stack
-- ⚛️ React – Component-based UI development
-- ⚡ Vite – Fast development server and optimized build tool
-- 🎨 Tailwind CSS – Utility-first CSS framework
-- 📦 PostCSS – CSS processing
-- 🧩 Reusable Components – Modular and scalable structure
+---
 
-✨ Features
-- Responsive car booking landing page
-- Modern and clean UI design
-- Hero section with Call-to-Action (CTA)
+## 🌐 Live Demo
+
+🔗 Live URL: https://your-live-link.vercel.app
+
+---
+
+## 📸 Screenshots
+
+_Add your screenshots inside a `screenshots` folder and link them below._
+
+![Homepage](./screenshots/home.png)
+![Car Listing](./screenshots/cars.png)
+![Booking Section](./screenshots/booking.png)
+
+---
+
+## 📌 Tech Stack
+
+| Technology      | Purpose                              |
+|---------------|--------------------------------------|
+| React        | Component-based UI development       |
+| Vite         | Fast development & optimized build   |
+| Tailwind CSS | Utility-first responsive styling     |
+| PostCSS      | CSS processing                       |
+| JavaScript   | Application logic                    |
+
+---
+
+## ✨ Features
+
+- Fully responsive design (Mobile, Tablet, Desktop)
+- Modern hero section with Call-to-Action (CTA)
 - Car listing section
 - Booking interface layout
-- Reusable card components
-- Mobile-friendly design
-- Fast development and build performance with Vite
+- Reusable and modular components
+- Optimized performance using Vite
+- Clean and scalable folder structure
 
-📂 Project Structure
-car-booking/
-│── public/
-│── src/
-│   ├── components/
-│   ├── pages/
-│   ├── assets/
-│   ├── App.jsx
-│   └── main.jsx
-│── tailwind.config.js
-│── postcss.config.js
-│── vite.config.js
-│── package.json
+---
 
-🚀 Getting Started
--1️⃣ Clone the repository
-git clone https://github.com/your-username/car-booking.git
--2️⃣ Navigate to the project folder
-cd car-booking
--3️⃣ Install dependencies
-npm install
--4️⃣ Run the development server
-npm run dev
--The application will run at:
-http://localhost:5173/
-
-🖥️ UI Sections
-- Navigation Bar
-- Hero Section
-- Car Listings
-- Booking Section
-- Footer
-  
-🎯 Purpose of the Project
-This project was developed to:
-- Practice modern frontend development
-- Strengthen React component architecture
-- Implement responsive design using Tailwind CSS
-- Understand Vite configuration and setup
-- Build a real-world portfolio project
-- 
-🔮 Future Enhancements
-- Backend integration (Node.js + MongoDB)
-- Authentication system (JWT-based login/signup)
-- Booking functionality with database storage
-- Payment gateway integration
-- Admin dashboard
+## 📂 Project Structure
