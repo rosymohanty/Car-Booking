@@ -41,24 +41,6 @@ This project demonstrates clean UI design, reusable components, and scalable fro
 
 ---
 
-## 📂 Project Structure
-
-car-booking/
-│── public/
-│── src/
-│ ├── components/
-│ ├── pages/
-│ ├── assets/
-│ ├── App.jsx
-│ └── main.jsx
-│── tailwind.config.js
-│── postcss.config.js
-│── vite.config.js
-│── package.json
-
-
----
-
 ## 🚀 Installation & Setup
 
 ### 1️⃣ Clone the repository
