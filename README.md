@@ -12,19 +12,10 @@ This project demonstrates clean UI design, reusable components, and scalable fro
 
 ## 🌐 Live Demo
 
-🔗 Live URL: https://your-live-link.vercel.app
+🔗 Live URL: https://car-booking-mauve.vercel.app
 
 ---
 
-## 📸 Screenshots
-
-_Add your screenshots inside a `screenshots` folder and link them below._
-
-![Homepage](./screenshots/home.png)
-![Car Listing](./screenshots/cars.png)
-![Booking Section](./screenshots/booking.png)
-
----
 
 ## 📌 Tech Stack
 
@@ -51,3 +42,70 @@ _Add your screenshots inside a `screenshots` folder and link them below._
 ---
 
 ## 📂 Project Structure
+
+car-booking/
+│── public/
+│── src/
+│ ├── components/
+│ ├── pages/
+│ ├── assets/
+│ ├── App.jsx
+│ └── main.jsx
+│── tailwind.config.js
+│── postcss.config.js
+│── vite.config.js
+│── package.json
+
+
+---
+
+## 🚀 Installation & Setup
+
+### 1️⃣ Clone the repository
+git clone https://github.com/rosymohanty/Car-Booking.git
+
+### 2️⃣ Navigate to project folder
+cd car-booking
+
+### 3️⃣ Install dependencies
+npm install
+
+### 4️⃣ Run development server
+npm run dev
+
+The application will run at:
+http://localhost:5173/
+
+---
+
+## 🎯 Learning Outcomes
+
+- Built reusable React components
+- Practiced responsive UI development with Tailwind CSS
+- Configured Vite for optimized workflow
+- Implemented modern frontend best practices
+- Developed a portfolio-ready real-world UI project
+
+---
+
+## 🔮 Future Enhancements
+
+- Backend integration (Node.js + Express + MongoDB)
+- JWT Authentication system
+- Booking API integration
+- Payment gateway integration
+- Admin dashboard
+
+---
+
+## 👩‍💻 Author
+
+**Rojalin Mohanty**  
+Master of Computer Applications (MCA)  
+MERN Stack Developer  
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
