@@ -1,4 +1,4 @@
-# 🚗 Car Booking Web Application
+# 🚗 Car Booking Website (Frontend)
 
 ![React](https://img.shields.io/badge/React-18-blue?logo=react)
 ![Vite](https://img.shields.io/badge/Vite-Fast%20Build-purple?logo=vite)
@@ -6,7 +6,8 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 A modern and responsive **Car Booking Website UI** built using **React, Vite, and Tailwind CSS**.
-The project demonstrates **clean UI design, reusable components, and scalable frontend architecture** for a vehicle rental platform.
+
+This project focuses on **frontend development, reusable components, responsive design, and clean UI architecture** for a vehicle rental or car booking platform.
 
 ---
 
@@ -20,77 +21,24 @@ The project demonstrates **clean UI design, reusable components, and scalable fr
 
 * Fully responsive design (Mobile, Tablet, Desktop)
 * Modern **Hero Section with Call-to-Action**
-* Car listing section
+* Car listing UI
 * Booking interface layout
-* Modular and reusable components
-* Clean and scalable folder structure
-* Fast development using **Vite**
+* Smooth and clean UI animations
+* Reusable React components
+* Optimized build using Vite
+* Scalable project folder structure
 
 ---
 
-# 📌 Tech Stack
+# 🛠️ Tech Stack
 
-| Technology   | Purpose                          |
-| ------------ | -------------------------------- |
-| React        | Component-based UI development   |
-| Vite         | Fast build tool                  |
-| Tailwind CSS | Responsive utility-first styling |
-| PostCSS      | CSS processing                   |
-| JavaScript   | Application logic                |
-
----
-
-# 🧠 API Endpoints (Future Backend Integration)
-
-When backend integration is added, the system will expose the following endpoints:
-
-## Authentication
-
-| Method | Endpoint           | Description   |
-| ------ | ------------------ | ------------- |
-| POST   | /api/auth/register | Register user |
-| POST   | /api/auth/login    | Login user    |
-
----
-
-## Car Management
-
-| Method | Endpoint      | Description         |
-| ------ | ------------- | ------------------- |
-| GET    | /api/cars     | Get all cars        |
-| GET    | /api/cars/:id | Get car details     |
-| POST   | /api/cars     | Add new car (Admin) |
-| PUT    | /api/cars/:id | Update car          |
-| DELETE | /api/cars/:id | Delete car          |
-
----
-
-## Booking
-
-| Method | Endpoint           | Description              |
-| ------ | ------------------ | ------------------------ |
-| POST   | /api/bookings      | Create booking           |
-| GET    | /api/bookings/user | Get user bookings        |
-| GET    | /api/bookings      | Get all bookings (Admin) |
-
----
-
-# ⚡ Architecture Diagram
-
-```mermaid
-graph TD
-
-User[User]
-Frontend[React + Tailwind Frontend]
-Backend[Node.js + Express API]
-Database[(MongoDB Atlas)]
-
-User --> Frontend
-Frontend --> Backend
-Backend --> Database
-Backend --> Frontend
-Frontend --> User
-```
+| Technology   | Purpose                         |
+| ------------ | ------------------------------- |
+| React        | Component-based UI development  |
+| Vite         | Fast development and build tool |
+| Tailwind CSS | Utility-first styling           |
+| PostCSS      | CSS processing                  |
+| JavaScript   | Application logic               |
 
 ---
 
@@ -106,9 +54,8 @@ car-booking
 │   ├── App.jsx
 │   └── main.jsx
 │
-├── screenshots
-│
 ├── public
+├── screenshots
 ├── package.json
 └── README.md
 ```
@@ -117,7 +64,7 @@ car-booking
 
 # 🚀 Installation & Setup
 
-## 1️⃣ Clone the Repository
+## 1️⃣ Clone the repository
 
 ```bash
 git clone https://github.com/rosymohanty/Car-Booking.git
@@ -125,7 +72,7 @@ git clone https://github.com/rosymohanty/Car-Booking.git
 
 ---
 
-## 2️⃣ Navigate to Project Folder
+## 2️⃣ Navigate to project folder
 
 ```bash
 cd Car-Booking
@@ -133,7 +80,7 @@ cd Car-Booking
 
 ---
 
-## 3️⃣ Install Dependencies
+## 3️⃣ Install dependencies
 
 ```bash
 npm install
@@ -141,7 +88,7 @@ npm install
 
 ---
 
-## 4️⃣ Run Development Server
+## 4️⃣ Run development server
 
 ```bash
 npm run dev
@@ -157,22 +104,21 @@ http://localhost:5173
 
 # 🎯 Learning Outcomes
 
-* Built **reusable React components**
-* Practiced **responsive UI development**
-* Learned **Vite build configuration**
-* Applied **modern frontend architecture**
+* Built reusable **React components**
+* Implemented **responsive UI with Tailwind CSS**
+* Learned **Vite development workflow**
+* Practiced **modern frontend architecture**
 * Developed a **portfolio-ready UI project**
 
 ---
 
-# 🔮 Future Enhancements
+# 🔮 Future Improvements
 
-* Full **MERN stack integration**
-* User authentication (JWT)
+* Backend integration using **Node.js + Express**
+* MongoDB database for bookings
+* User authentication system
 * Booking management system
 * Payment gateway integration
-* Admin dashboard
-* Car availability filtering
 
 ---
 
@@ -181,7 +127,7 @@ http://localhost:5173
 **Rojalin Mohanty**
 
 MCA Student
-MERN Stack Developer
+Aspiring MERN Stack Developer
 
 GitHub:
 https://github.com/rosymohanty
