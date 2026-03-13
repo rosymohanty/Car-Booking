@@ -1,93 +1,193 @@
-# 🚗 Car Booking Website
+# 🚗 Car Booking Web Application
 
 ![React](https://img.shields.io/badge/React-18-blue?logo=react)
 ![Vite](https://img.shields.io/badge/Vite-Fast%20Build-purple?logo=vite)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-Utility--First-38B2AC?logo=tailwind-css)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-A modern and responsive **Car Booking Website UI** built using **React, Vite, and Tailwind CSS**.  
-This project demonstrates clean UI design, reusable components, and scalable frontend architecture for a vehicle rental or car booking platform.
+A modern and responsive **Car Booking Website UI** built using **React, Vite, and Tailwind CSS**.
+The project demonstrates **clean UI design, reusable components, and scalable frontend architecture** for a vehicle rental platform.
 
 ---
 
-## 🌐 Live Demo
+# 🌐 Live Demo
 
-🔗 Live URL: https://car-booking-mauve.vercel.app
-
----
-
-
-## 📌 Tech Stack
-
-| Technology      | Purpose                              |
-|---------------|--------------------------------------|
-| React        | Component-based UI development       |
-| Vite         | Fast development & optimized build   |
-| Tailwind CSS | Utility-first responsive styling     |
-| PostCSS      | CSS processing                       |
-| JavaScript   | Application logic                    |
+🔗 https://car-booking-mauve.vercel.app
 
 ---
 
-## ✨ Features
+# ✨ Features
 
-- Fully responsive design (Mobile, Tablet, Desktop)
-- Modern hero section with Call-to-Action (CTA)
-- Car listing section
-- Booking interface layout
-- Reusable and modular components
-- Optimized performance using Vite
-- Clean and scalable folder structure
+* Fully responsive design (Mobile, Tablet, Desktop)
+* Modern **Hero Section with Call-to-Action**
+* Car listing section
+* Booking interface layout
+* Modular and reusable components
+* Clean and scalable folder structure
+* Fast development using **Vite**
 
 ---
 
-## 🚀 Installation & Setup
+# 📌 Tech Stack
 
-### 1️⃣ Clone the repository
+| Technology   | Purpose                          |
+| ------------ | -------------------------------- |
+| React        | Component-based UI development   |
+| Vite         | Fast build tool                  |
+| Tailwind CSS | Responsive utility-first styling |
+| PostCSS      | CSS processing                   |
+| JavaScript   | Application logic                |
+
+---
+
+# 🧠 API Endpoints (Future Backend Integration)
+
+When backend integration is added, the system will expose the following endpoints:
+
+## Authentication
+
+| Method | Endpoint           | Description   |
+| ------ | ------------------ | ------------- |
+| POST   | /api/auth/register | Register user |
+| POST   | /api/auth/login    | Login user    |
+
+---
+
+## Car Management
+
+| Method | Endpoint      | Description         |
+| ------ | ------------- | ------------------- |
+| GET    | /api/cars     | Get all cars        |
+| GET    | /api/cars/:id | Get car details     |
+| POST   | /api/cars     | Add new car (Admin) |
+| PUT    | /api/cars/:id | Update car          |
+| DELETE | /api/cars/:id | Delete car          |
+
+---
+
+## Booking
+
+| Method | Endpoint           | Description              |
+| ------ | ------------------ | ------------------------ |
+| POST   | /api/bookings      | Create booking           |
+| GET    | /api/bookings/user | Get user bookings        |
+| GET    | /api/bookings      | Get all bookings (Admin) |
+
+---
+
+# ⚡ Architecture Diagram
+
+```mermaid
+graph TD
+
+User[User]
+Frontend[React + Tailwind Frontend]
+Backend[Node.js + Express API]
+Database[(MongoDB Atlas)]
+
+User --> Frontend
+Frontend --> Backend
+Backend --> Database
+Backend --> Frontend
+Frontend --> User
+```
+
+---
+
+# 📂 Project Structure
+
+```
+car-booking
+│
+├── src
+│   ├── components
+│   ├── pages
+│   ├── assets
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── screenshots
+│
+├── public
+├── package.json
+└── README.md
+```
+
+---
+
+# 🚀 Installation & Setup
+
+## 1️⃣ Clone the Repository
+
+```bash
 git clone https://github.com/rosymohanty/Car-Booking.git
+```
 
-### 2️⃣ Navigate to project folder
-cd car-booking
+---
 
-### 3️⃣ Install dependencies
+## 2️⃣ Navigate to Project Folder
+
+```bash
+cd Car-Booking
+```
+
+---
+
+## 3️⃣ Install Dependencies
+
+```bash
 npm install
+```
 
-### 4️⃣ Run development server
+---
+
+## 4️⃣ Run Development Server
+
+```bash
 npm run dev
+```
 
 The application will run at:
-http://localhost:5173/
+
+```
+http://localhost:5173
+```
 
 ---
 
-## 🎯 Learning Outcomes
+# 🎯 Learning Outcomes
 
-- Built reusable React components
-- Practiced responsive UI development with Tailwind CSS
-- Configured Vite for optimized workflow
-- Implemented modern frontend best practices
-- Developed a portfolio-ready real-world UI project
-
----
-
-## 🔮 Future Enhancements
-
-- Backend integration (Node.js + Express + MongoDB)
-- JWT Authentication system
-- Booking API integration
-- Payment gateway integration
-- Admin dashboard
+* Built **reusable React components**
+* Practiced **responsive UI development**
+* Learned **Vite build configuration**
+* Applied **modern frontend architecture**
+* Developed a **portfolio-ready UI project**
 
 ---
 
-## 👩‍💻 Author
+# 🔮 Future Enhancements
 
-**Rojalin Mohanty**  
-Master of Computer Applications (MCA)  
-MERN Stack Developer  
+* Full **MERN stack integration**
+* User authentication (JWT)
+* Booking management system
+* Payment gateway integration
+* Admin dashboard
+* Car availability filtering
 
 ---
 
-## 📄 License
+# 👩‍💻 Author
 
-This project is licensed under the MIT License.
+**Rojalin Mohanty**
+
+MCA Student
+MERN Stack Developer
+
+GitHub:
+https://github.com/rosymohanty
+
+---
+
+# ⭐ Support
+
+If you like this project, consider giving it a **star ⭐ on GitHub**.
